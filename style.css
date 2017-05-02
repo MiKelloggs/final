@@ -1,0 +1,236 @@
+body {
+	font-family: sans-serif;
+    background-image: url(standard.jpg);
+    background-size: cover;
+    background-position: center;
+}
+body, html {
+    height: 100%;
+}
+.header {
+    color: #fff;
+}
+.header2 {
+    color: #000;
+}
+.white {
+    color: white;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    text-align: right;
+}
+
+::-webkit-input-placeholder { text-align: left; }
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+/**
+https://www.w3schools.com/css/tryit.asp?filename=trycss_form_focus2
+**/
+
+.button {
+    background-color: #f44336;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 4px solid #f44336;
+}
+
+.button1:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+/**
+https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_hover
+**/
+
+.goldenTicket {
+    width: 90%;
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+.botpad {
+    padding-bottom: 15px;
+    margin-bottom: 15px; 
+}
+* {
+    margin: 0; 
+    list-style-type: none;
+    text-decoration: none;
+}
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+    padding: 5px;
+}
+p {
+    padding-bottom: 10px;
+}
+
+.container {
+    position: relative;
+    
+}
+
+h1 {
+	color: #870002;
+	padding-bottom: 10px;
+}
+
+text {
+	text-align: center;
+}
+#wrap {
+    word-wrap: break-word;
+	width: 90%;
+}
+
+#right{
+	padding: 5px;
+	}
+
+/** 
+
+Grid
+
+**/
+
+.col1x {width:8.33333333%;}
+.col2x {width:16.66666667%;}
+.col3x {width:25%;}
+.col4x {width:33.33333333%;}
+.col5x {width:41.66666667%;}
+.col6x {width:50%;}
+.col7x {width:58.33333333%;}
+.col8x {width:66.66666667%;}
+.col9x {width:75%;}
+.col10x {width:83.33333333%;}
+.col11x {width:91.66666667%;}
+.col12x {width:100%;}
+
+@media (min-width:768px) {
+    .col1s {width:8.33333333%;}
+    .col2s {width:16.66666667%;}
+    .col3s {width:25%;}
+    .col4s {width:33.33333333%;}
+    .col5s {width:41.66666667%;}
+    .col6s {width:50%;}
+    .col7s {width:58.33333333%;}
+    .col8s {width:66.66666667%;}
+    .col9s {width:75%;}
+    .col10s {width:83.33333333%;}
+    .col11s {width:91.66666667%;}
+    .col12s {width:100%;}
+}
+
+@media (min-width:992px) {
+    .col1m {width:8.33333333%;}
+    .col2m {width:16.66666667%;}
+    .col3m {width:25%;}
+    .col4m {width:33.33333333%;}
+    .col5m {width:41.66666667%;}
+    .col6m {width:50%;}
+    .col7m {width:58.33333333%;}
+    .col8m {width:66.66666667%;}
+    .col9m {width:75%;}
+    .col10m {width:83.33333333%;}
+    .col11m {width:91.66666667%;}
+    .col12m {width:100%;}
+}
+
+@media (min-width:1200px) {
+    .col1l {width:8.33333333%;}
+    .col2l {width:16.66666667%;}
+    .col3l {width:25%;}
+    .col4l {width:33.33333333%;}
+    .col5l {width:41.66666667%;}
+    .col6l {width:50%;}
+    .col7l {width:58.33333333%;}
+    .col8l {width:66.66666667%;}
+    .col9l {width:75%;}
+    .col10l {width:83.33333333%;}
+    .col11l {width:91.66666667%;}
+    .col12l {width:100%;}
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+
+@media (min-width:768px) {
+    .container {
+        width:750px;
+		padding: 0 15px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width:970px;
+		padding: 0 15px;
+    }
+
+}
+
+@media (max-width:992px) {
+	
+}
+
+@media (min-width:1200px) {
+    .container {
+        width:1170px;
+		padding: 0 15px;
+    }
+
+}
+
+.col1x, .col2x, .col3x, .col4x, .col5x, .col6x, .col7x, .col8x, .col9x, .col10x, .col11x, .col12x, .col1s, .col2s, .col3s, .col4s, .col5s, .col6s, .col7s, .col8s, .col9s, .col10s, .col11s, .col12s, .col1m, .col2m, .col3m, .col4m, .col5m, .col6m, .col7m, .col8m, .col9m, .col10m, .col11m, .col12m, .col1l, .col2l, .col3l, .col4l, .col5l, .col6l, .col7l, .col8l, .col9l, .col10l, .col11l, .col12l {
+    float:left;
+    position:relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row { margin-left: -15px;
+	   margin-right: -15px;
+}
+
+.row:before, .row:after { 
+	display: table;
+	content: " ";
+	clear: both;
+}
